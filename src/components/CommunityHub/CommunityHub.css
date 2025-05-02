@@ -1,0 +1,28 @@
+.community-hub {
+    background-color: var(--color-background-green);
+    padding: var(--space-3) var(--space-3) var(--space-4);
+    min-height: calc(100vh - 64px);
+  }
+  
+  .community-hub-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .community-hub-title {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-text-dark);
+    margin-bottom: var(--space-3);
+  }
+  
+  @media (min-width: 768px) {
+    .community-hub {
+      padding: var(--space-4) var(--space-5) var(--space-6);
+    }
+    
+    .community-hub-title {
+      font-size: var(--font-size-2xl);
+      margin-bottom: var(--space-4);
+    }
+  }
